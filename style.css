@@ -11,8 +11,7 @@
 .head-banner {
     width: 1320px;
     height: 600px;
-    background-image: url('/resources/Banner\ Image.png');
-
+    background-image: url('./resources/Banner Image.png');
 
 }
 
