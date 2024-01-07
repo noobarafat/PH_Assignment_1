@@ -156,18 +156,39 @@
     border: none;
 }
 
-.body-container4{
+.body-container4 {
     padding: 140px;
 }
 
-#offer-coming-container{
+#offer-coming-container {}
 
-}
-
-#offer-coming{
+#offer-coming {
     display: flex;
 }
 
-#offer-coming2{
-    align-items: center;
+#offer-coming1 {}
+
+#offer-coming1p {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#p-offer-coming1 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 393px;
+    height: 128px;
+}
+
+#offer-coming2 {
+    align-items: center top;
 }
