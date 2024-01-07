@@ -157,7 +157,7 @@
 }
 
 .body-container4 {
-    padding: 140px;
+    padding: 0px 140px;
 }
 
 #offer-coming-container {}
@@ -166,19 +166,30 @@
     display: flex;
 }
 
-#offer-coming1 {}
+#offer-coming1 h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-bottom: 22px;
+    
+}
 
-#offer-coming1p {
+p {
     color: #F00;
-    text-align: center;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    padding-bottom: 16px;
+
 }
 
-#p-offer-coming1 {
+#p1 {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
@@ -191,4 +202,38 @@
 
 #offer-coming2 {
     align-items: center top;
+}
+
+#offer-coming2 img {
+    width: 364.844px;
+    height: 364.844px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 15px;
+    margin: 0px 70px;
+}
+
+#offer-coming3 h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 50px;
+}
+
+#offer-coming3 p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+#offer-coming3 img {
+    width: 140px;
+    height: 140px;
+    padding-top: 43px;
 }
