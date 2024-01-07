@@ -155,3 +155,19 @@
     color: white;
     border: none;
 }
+
+.body-container4{
+    padding: 140px;
+}
+
+#offer-coming-container{
+
+}
+
+#offer-coming{
+    display: flex;
+}
+
+#offer-coming2{
+    align-items: center;
+}
