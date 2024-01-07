@@ -1,5 +1,90 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    
+
+}
+
+.head-banner {
+    width: 1320px;
+    height: 600px;
+    background-image: url('/resources/Banner\ Image.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+
+}
+
+.head-banner p {
+    text-align: center;
+    padding-top: 177px;
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+    /* font-family: Merriweather; */
+}
+
+.head-banner h1 {
+    text-align: center;
+    color: #FFF;
+    padding: 0px 344px;
+}
+
+/* .banner-img {
+    width: 1320px;
+    height: 600px;
+    margin: 50px 140px 0px 140px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+} */
+
+.happy-new-year2 {
+    padding-bottom: 60px;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.container p {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.container h2 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.container img {
+    width: 802.9px;
+    height: 500px;
+}
+
+
+.container2 {
+    width: 1320px;
+    height: 600px;
+    background-image: url('./resources/Vectorrr.png');
+    background-position: center;
+    background-size: cover;
+    padding-left: 60px;
 }
