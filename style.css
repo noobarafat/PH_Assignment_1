@@ -416,3 +416,17 @@ hr{
     text-align: center;
     gap: 15px;
 }
+
+#last-part{
+    display: flex;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+}
+
+#last-part p{
+    color: wheat;
+    font-size:17px ;
+
+}
