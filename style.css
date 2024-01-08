@@ -14,6 +14,8 @@
     width: 1320px;
     height: 600px;
     background-image: linear-gradient(#070211, rgba(7, 2, 17, 0.00)), url('./resources/Banner Image.png');
+    border-radius: 16px;
+
 }
 
 .head-banner p {
@@ -88,6 +90,8 @@
     width: 1320px;
     height: 600px;
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./resources/Vectorrr.png');
+    border-radius: 16px;
+
 }
 
 #party-body h1 {
@@ -131,6 +135,8 @@
 
 .body-container3 {
     padding: 0px 140px 140px 140px;
+        border-radius: 16px;
+
 }
 
 #party-place-container {
@@ -138,6 +144,8 @@
     height: 482px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     text-align: center;
+    border-radius: 16px;
+
 }
 
 #party-place {
@@ -307,4 +315,26 @@ p {
     font-weight: 400;
     line-height: 32px;
     width: 896px;
+    padding-bottom: 48px;
+}
+
+.photos-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photos-container img{
+    width: 32.333%;
+    height: auto; 
+    transition: transform 0.3s ease;
+
+}
+
+#photo-part1{
+    padding-bottom: 17px;
+}
+
+.photos-container img:hover{
+    transform: scale(1.05);
 }
