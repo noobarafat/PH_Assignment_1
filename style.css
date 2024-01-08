@@ -13,8 +13,7 @@
 .head-banner {
     width: 1320px;
     height: 600px;
-    background-image: url('./resources/Banner Image.png'), linear-gradient(red, yellow);
-
+    background-image: linear-gradient(#070211, rgba(7, 2, 17, 0.00)), url('./resources/Banner Image.png');
 }
 
 .head-banner p {
@@ -88,7 +87,7 @@
 #party-body {
     width: 1320px;
     height: 600px;
-    background-image: url('./resources/Vectorrr.png');
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./resources/Vectorrr.png');
 }
 
 #party-body h1 {
@@ -101,14 +100,25 @@
     padding: 126px 552px 24px 126px;
 }
 
-#party-body>p {
+#party-body p {
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    width: 697px;
     padding: 0px 497px 48px 126px;
+
+}
+
+.body-container2 img {
+    float: right;
+    width: 319.83px;
+    height: 464.662px;
+    padding-top: 70PX;
+    padding-right: 40px;
+    
+    
 }
 
 #join-btn-p {
@@ -120,7 +130,7 @@
 }
 
 .body-container3 {
-    padding: 140px;
+    padding: 0px 140px 140px 140px;
 }
 
 #party-place-container {
@@ -170,6 +180,17 @@
     display: flex;
 }
 
+#offer-coming1 h2 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 75px;
+    padding-bottom: 20px;
+}
+
 #offer-coming1 h1 {
     color: #070211;
     font-family: Merriweather;
@@ -178,7 +199,22 @@
     font-weight: 900;
     line-height: normal;
     text-transform: capitalize;
-    padding-bottom: 22px;
+    padding-bottom: 10px;
+
+
+
+
+}
+
+#offer-coming1 p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    width: 393px;
+    height: 128px;
+
 
 }
 
@@ -239,11 +275,11 @@ p {
 #offer-coming3 img {
     width: 140px;
     height: 140px;
-    padding-top: 43px;
+    padding-top: 25px;
 }
 
 .body-container6 {
-    padding: 140px;
+    padding: 140px 140px 140px 140px;
 }
 
 #photo-display-captions-p {
@@ -253,14 +289,22 @@ p {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    padding-bottom: 16px;
 }
 
-#photo-display-captions-p1 {
+#photo-display-captions h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#photo-display-captions p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-   
+    width: 896px;
 }
