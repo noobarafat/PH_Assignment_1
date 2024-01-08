@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-
+    font-family: Inter;
 }
 
 /* header part starts */
@@ -32,7 +32,6 @@
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
-    font-style: normal;
     font-weight: 900;
     line-height: 95px;
     padding: 0px 344px 177px 344px;
@@ -51,28 +50,28 @@
 .container h1 {
     color: #F00;
     text-align: center;
-    font-family: Inter;
     font-size: 88px;
-    font-style: normal;
     font-weight: 700;
     margin-bottom: 48px;
+    transition: transform 0.3s ease;
+}
+
+.container h1:hover {
+    transform: scale(1.05);
+    color: blue;
 }
 
 .container p {
     color: #F00;
     text-align: center;
-    font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
 }
 
 .container h2 {
     color: #070211;
     text-align: center;
-    font-family: Inter;
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
     margin-bottom: 48px;
 }
@@ -99,19 +98,17 @@
     font-family: Merriweather;
     font-size: 64px;
     font-weight: 900;
-    line-height: 88px;
-    letter-spacing: 7.04px;
+    letter-spacing: 7.01px;
     padding: 126px 552px 24px 126px;
 }
 
 #party-body p {
     color: rgba(255, 255, 255, 0.80);
-    font-family: Inter;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     width: 697px;
-    padding: 0px 497px 48px 126px;
+    padding: 0px 497px 28px 126px;
 
 }
 
@@ -121,21 +118,30 @@
     height: 464.662px;
     padding-top: 70PX;
     padding-right: 40px;
-    
-    
+
+
 }
 
 #join-btn-p {
-    color: #FFF;
-    font-family: Inter;
+    color: #f8f5f5;
     font-size: 20px;
     font-weight: 900;
-    padding: 0px 1059px 142px 158px;
+    margin: 0px 0px 50px 125px;
+    padding: 10px 20px;
+    background-color: #171515;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+}
+
+#join-btn-p:hover {
+    background-color: #F00;
+    transform: scale(1.04);
 }
 
 .body-container3 {
     padding: 0px 140px 140px 140px;
-        border-radius: 16px;
+    border-radius: 16px;
 
 }
 
@@ -150,21 +156,17 @@
 
 #party-place {
     text-align: center;
-    color: #070211;
-    font-family: Inter;
+    color: #F00;
     font-size: 32px;
-    font-style: normal;
     font-weight: 600;
     line-height: 56px;
-    padding: 100px 386px 48px 385px;
+    padding: 120px 386px 48px 385px;
 }
 
 .font-coloring {
-    color: #F00;
+    color: #0d0d0e;
+    ;
     text-align: center;
-    font-family: Inter;
-    font-size: 32px;
-    font-style: normal;
     font-weight: 600;
 }
 
@@ -176,13 +178,19 @@
     align-items: center;
     color: white;
     border: none;
+    transition: transform 0.2s ease;
+}
+
+#party-place-btn:hover {
+    transform: scale(1.03);
+    background-color: rgb(79, 35, 197);
 }
 
 .body-container4 {
     padding: 0px 140px;
 }
 
-#offer-coming-container {}
+
 
 #offer-coming {
     display: flex;
@@ -190,9 +198,7 @@
 
 #offer-coming1 h2 {
     color: #F00;
-    font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
     padding-top: 75px;
@@ -203,22 +209,15 @@
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
     text-transform: capitalize;
     padding-bottom: 10px;
-
-
-
 
 }
 
 #offer-coming1 p {
     color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     width: 393px;
     height: 128px;
@@ -228,9 +227,7 @@
 
 p {
     color: #F00;
-    font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
     padding-bottom: 16px;
@@ -239,9 +236,7 @@ p {
 
 #p1 {
     color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px;
     width: 393px;
@@ -263,9 +258,7 @@ p {
 
 #offer-coming3 h1 {
     color: #F00;
-    font-family: Inter;
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     padding-top: 50px;
@@ -273,9 +266,7 @@ p {
 
 #offer-coming3 p {
     color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px;
 }
@@ -283,7 +274,7 @@ p {
 #offer-coming3 img {
     width: 140px;
     height: 140px;
-    padding-top: 25px;
+    padding-top: 12px;
 }
 
 .body-container6 {
@@ -292,9 +283,7 @@ p {
 
 #photo-display-captions-p {
     color: #F00;
-    font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
     padding-bottom: 16px;
@@ -309,32 +298,91 @@ p {
 
 #photo-display-captions p {
     color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    width: 896px;
+    width: 80%;
     padding-bottom: 48px;
 }
 
-.photos-container{
+.photos-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.photos-container img{
+.photos-container img {
     width: 32.333%;
-    height: auto; 
+    height: auto;
     transition: transform 0.3s ease;
 
 }
 
-#photo-part1{
+#photo-part1 {
     padding-bottom: 17px;
 }
 
-.photos-container img:hover{
+.photos-container img:hover {
+    transform: scale(1.05);
+}
+
+.body-container7 {
+    margin:0px 140px 140px 140px;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+
+}
+
+.body-container7 img {
+    padding-bottom: 40px;
+    padding-top: 80px;
+}
+
+.body-container7 h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+.body-container7 p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    width: 896px;
+    padding-left: 200px;
+}
+
+.body-container7 input{
+    width: 348px;
+    height: 62px;
+    border-radius: 50px 0px 0px 50px;
+    padding: 0;
+    border: none;
+    
+}
+
+.body-container7 ::placeholder{
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.body-container7 button{
+    width: 180px;
+    height: 62px;
+    border-radius: 0 50px 50px 0;
+    padding-bottom: 3.5px;
+    border: none;
+    background-color: #F00;
+    font-size: 20px;
+    font-weight: 500;
+    transition: transform .3s ease;
+}
+
+.body-container7 button:hover{
+    background-color: green;
+    color: white;
     transform: scale(1.05);
 }
