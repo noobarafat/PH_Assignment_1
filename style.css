@@ -282,14 +282,6 @@ p {
     padding-top: 12px;
 }
 
-.body-container5 {
-    margin: 0px 140px 140px 140px;
-    text-align: center;
-    border-radius: 16px;
-    background: rgba(255, 0, 0, 0.05);
-    position: relative;
-
-}
 
 
 .body-container6 {
@@ -367,15 +359,16 @@ p {
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-weight: 400;
-    width: 896px;
+    width: 915px;
     padding-left: 200px;
+    padding-bottom: 30px;
 }
 
 .body-container7 input {
     width: 348px;
     height: 62px;
     border-radius: 50px 0px 0px 50px;
-    padding: 0;
+    padding: 0 4px;
     border: none;
 
 }
@@ -389,12 +382,13 @@ p {
     width: 180px;
     height: 62px;
     border-radius: 0 50px 50px 0;
-    padding-bottom: 3.5px;
-    border: none;
+    border: 1px solid  #F00;
     background-color: #F00;
     font-size: 20px;
     font-weight: 500;
     transition: transform .3s ease;
+    margin-left: -5px;
+    vertical-align: middle;
 }
 
 .body-container7 button:hover {
@@ -422,10 +416,18 @@ footer {
 #footer-contact div p {
     color: white;
     font-size: 17px;
+    display: flex;
+    align-items: center;
+    
+}
+
+#footer-contact div img{
+
+    margin-right: 10px;
 }
 
 hr {
-    color: #FFF;
+    color: #e4d7d7;
 }
 
 #footer-icon {
@@ -433,10 +435,17 @@ hr {
     gap: 15px;
 }
 
+#footer-icon img{
+    margin-right: 13px;
+}
+
+#footer-icon img:last-child{
+    margin-right: 0;
+}
 #last-part {
     display: flex;
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 160px;
+    padding-right: 220px;
     padding-bottom: 50px;
     justify-content: space-between;
 }
@@ -444,5 +453,11 @@ hr {
 #last-part p {
     color: wheat;
     font-size: 17px;
+}
+
+hr{
+    width: 1200px;
+    margin-left: 10%;
+    
 
 }
